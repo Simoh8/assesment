@@ -1,0 +1,122 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 98vw;
+    height: 98vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+body{
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.div1{
+    grid-area :one;
+   
+
+}
+.div2{
+    border-radius: 5px;
+    
+    grid-area :two;
+    background-color: rgb(255, 165, 0);
+    border-radius: 5px;
+    background-image: url("images\icon-play.svg");
+    border-radius: 5px;
+}
+.div3{
+    
+    grid-area :three;
+    background-image: url("images\icon-play.svg");
+    border-radius: 20px;
+}
+.div4{
+    border-radius: 5px;
+    grid-area :four;
+    background-image: url("images\icon-play.svg");
+}
+.div5{
+    border-radius: 5px;
+    grid-area :five;
+    background-image: url("images\icon-play.svg");
+}
+.div6{
+    border-radius: 5px;
+    grid-area :six;
+    background-image: url("images\icon-play.svg");
+}
+.div7{
+    border-radius: 5px;
+    grid-area :seven;
+    background-image: url("images\icon-play.svg");
+}
+
+.prof{
+    border-radius: 5px;
+}
+.content{
+    
+    display: grid;
+    height: 90%;
+    width: 90%;
+    color: aliceblue;
+    justify-content: center;
+    align-content:center ;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 2 1fr;
+    grid-template-areas: 
+    "one two three four"
+    "one five six seven";
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+
+}
+h5{
+    color: aliceblue;
+}
+
+
+img{
+    padding: 20px;
+    border: solid white ;
+}
+.body1{
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+.body1{
+    
+}
+.body1{
+    
+}
+.body1{
+    
+}
+.body1{
+    
+}
+.body1{
+    
+}
+.body1{
+    
+}
+
